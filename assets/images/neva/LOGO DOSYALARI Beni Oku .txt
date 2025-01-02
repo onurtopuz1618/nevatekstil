@@ -1,0 +1,17 @@
+Yakin zamanda gerçeklestirdiginiz logo dosyasi alimi için tesekkür ederiz. Paketinizde bulunan farkli dosya türleri ve boyutlarinin kisa tanimlari asagidadir:
+
+.JPG: Bu logo dosyalari, logonuzun arkasinda bulunan ve logonuzun çevresinde beyaz bir kutu gibi görünen opak beyaz bir arka plana sahiptir.
+
+.PNG: Bu logo dosyalari, beyaz kutuya/arka plana sahip olmadigi için saydamligi saglar. Logonuzu bir web sitesine yüklerken veya logonuzun arkasinda görünmesini istediginiz bir arka plan rengine ya da desene sahip bir dosyaya yerlestirirken bu dosyalari kullanmalisiniz.
+
+.EPS: (Encapsulated PostScript) Bu dosya, yazici/tasarimci kullanimi içindir. Bu dosyalar size logonuzun görüntüsü, logonuz ve sekil olarak fontlarla birlikte sunulur. Bazi bilgisayar ve mobil cihazlar bu dosya türleri için bir önizleme özelligi sunmayabilir
+
+.SVG: (Scalable Vector Graphics) Bu dosyalar yazici/tasarimci kullanimi içindir. Bu dosyalar, logonuzda kullanilan fontlari da içeren orijinal tasarim dosyalaridir. Bazi bilgisayar ve mobil cihazlar bu dosya türleri için bir önizleme özelligi sunmayabilir.
+
+.PDF: (Portable Document Format) Bu dosya, tüm bilgisayar ve mobil cihazlarda logo formatinizin düzenini korumak için kullanilir. Bazen yazicilar için kabul edilen bir formatta olabilirler.
+
+dpi: (inç basina nokta) yazdirilan metin ya da görüntüler için kullanilan bir çözünürlük ölçüsüdür, inç basina daha fazla nokta daha yüksek çözünürlük demektir.
+
+px: (Pikseller) ekran üzerindeki bir dakikalik aydinlatma alani ve görüntüyü olusturanlarin çogundan bir tanesi.
+
+

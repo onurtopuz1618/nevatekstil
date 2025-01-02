@@ -6,12 +6,9 @@
         <div class="col-xl-6">
           <div class="about-page__left">
             <div class="about-page__img">
-              <img
-                src="~/assets/images/resources/about-page-img-1.jpg"
-                alt=""
-              />
+              <img src="~/assets/images/resources/about-page-img.png" alt="" />
               <div class="about-page__trusted">
-                <h3>We’re trusted by <span>9,8750</span> donors</h3>
+                <h3>Aylık <span>8.750</span>'den fazla üretim</h3>
               </div>
             </div>
           </div>
@@ -19,68 +16,35 @@
         <div class="col-xl-6">
           <div class="about-page__right">
             <div class="section-title text-left">
-              <span class="section-title__tagline">Our Inroductions</span>
+              <span class="section-title__tagline">Hakkımızda</span>
               <h2 class="section-title__title">
-                We believe that we can save more lifes
+                Yüksek kalite boxer üretimi, güvenilir toptan tedarikçi çözümü
               </h2>
             </div>
             <p class="about-page__right-text">
-              We are trusted by our clients and have a reputation for the best
-              services in the field. Lorem ipsum is simply free text dolor sit
-              amett consectetur adipiscing elit. It is a long established fact
-              that a reader will be distracted by the readable content of a
-              page.
+              Neva Tekstil olarak, yılların deneyimi ve birikimiyle tekstil sektöründe güçlü bir yer edinmiş
+              bulunmaktayız. Özel olarak boxer üretimine odaklanan firmamız, kaliteli ürünleri ve müşteri memnuniyetini
+              temel alarak sektörde fark yaratmaktadır. Başladığımız günden bu yana inovasyon ve kaliteyi ön planda
+              tutarak, müşterilerimize en iyi hizmeti sunmayı amaçlıyoruz.
+            </p>
+            <p class="about-page__right-text">
+              Firmamızın temel prensibi, yüksek kaliteli ürünler ve güvenilir iş ortaklıkları oluşturmaktır. Modern
+              üretim tesislerimizde, son teknoloji ekipmanlarımızla, uluslararası standartlara uygun şekilde üretim
+              yapıyoruz. Bunun yanında, tasarım aşamasından paketlemeye kadar her süreci büyük bir titizlikle takip
+              ediyoruz.
+            </p>
+            <p class="about-page__right-text">
+              Ekibimiz, alanında uzman ve işine tutkuyla bağlı profesyonellerden oluşmaktadır. Bu sayede, her geçen gün
+              büyüyen müşteri ağımızla birlikte sektördeki varlığımızı daha da güçlendiriyoruz. Amacımız, yalnızca ürün
+              değil, aynı zamanda güven ve değer sunmaktır.
             </p>
             <h3 class="about-page__right-title">
-              Halpes is the largest global crowdfunding community in the world
+              Daha fazla bilgi almak veya iş birliği yapmak için bizimle iletişime geçebilirsiniz.
             </h3>
-            <div class="about-five__progress-wrap">
-              <div class="about-five__progress">
-                <div class="about-five__progress-box">
-                  <div class="circle-progress">
-                    <client-only>
-                      <vue-ellipse-progress
-                        :progress="90"
-                        :size="138"
-                        :thickness="3"
-                        emptyThickness="3%"
-                        color="#15c8a0"
-                        emptyColor="#e5eeec"
-                        :legend="false"
-                      />
-                    </client-only>
-                  </div>
-                  <!-- /.circle-progress -->
-                  <span>90%</span>
-                </div>
-                <div class="about-five__progress-content">
-                  <h3>Successful causes</h3>
-                </div>
-              </div>
-              <div class="about-five__progress">
-                <div class="about-five__progress-box">
-                  <div class="circle-progress">
-                    <client-only>
-                      <vue-ellipse-progress
-                        :progress="50"
-                        :size="138"
-                        :thickness="3"
-                        emptyThickness="3%"
-                        color="#15c8a0"
-                        emptyColor="#e5eeec"
-                        :legend="false"
-                      />
-                    </client-only>
-                  </div>
-                  <!-- /.circle-progress -->
-                  <span>50%</span>
-                </div>
-                <!-- /.about-five__progress-box -->
-                <div class="about-five__progress-content">
-                  <h3>Amazing donors</h3>
-                </div>
-              </div>
-            </div>
+            <button @click="goToContact" class="thm-btn">
+              <i class="fas fa-arrow-circle-right"></i>
+              {{ buttonLabel }}
+            </button>
           </div>
         </div>
       </div>
@@ -89,5 +53,22 @@
   <!--About Page Start-->
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      buttonLabel: 'İletişime Geç', // Buton etiketini burada tanımlayabilirsiniz
+    };
+  },
+  methods: {
+    goToContact() {
+      this.$router.push('/contact'); // '/contact' sayfasına yönlendirir
+    },
+  },
+};
 </script>
+
+<style scoped>
+.thm-btn {
+  /* Buton stilini buraya ekleyebilirsiniz */
+}
+</style>

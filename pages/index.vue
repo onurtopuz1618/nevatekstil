@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header />
-    <MainSliderTwo />
+    <HeaderTwo />
+    <MainSliderThree />
     <AboutTwo />
     <CausesCarousel />
     <CallToActionTwo className="" />

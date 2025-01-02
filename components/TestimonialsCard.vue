@@ -4,7 +4,6 @@
     <p class="testimonial-one__text" v-html="excerpt"></p>
     <div class="testimonial-one__client-info">
       <div class="testimonial-one__client-img">
-        <img :src="require(`~/assets/images${thumbnail}`)" :alt="name" />
         <div class="testimonial-one__quote"></div>
       </div>
       <div class="testimonial-one__client-name">

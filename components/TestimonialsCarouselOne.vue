@@ -9,11 +9,7 @@
       <div class="row">
         <div class="col-xl-4">
           <div class="testimonial-one__left">
-            <SectionTitle
-              title="What they’re talking about charity"
-              subTitle="Our Testimonials"
-              alignment="left"
-            />
+            <SectionTitle title="Piyasada Neva Tekstil Hakkında" subTitle="İş Ortaklarımızın Yorumları" alignment="left" />
           </div>
         </div>
         <div class="col-xl-8">

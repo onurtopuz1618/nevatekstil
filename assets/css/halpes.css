@@ -850,7 +850,7 @@ h6 {
 }
 
 .main-menu__two .main-menu__inner {
-  background: #ffffff;
+  background: #f2f2f2;
   padding: 0 50px;
 }
 
@@ -5581,7 +5581,7 @@ h6 {
   justify-content: center;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   background-color: #fff;
   padding: 11px 40px;
 }

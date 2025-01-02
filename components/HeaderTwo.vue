@@ -6,10 +6,7 @@
           <div class="main-header-two__top clearfix">
             <div class="main-header-two__logo">
               <nuxt-link to="/">
-                <img
-                  :src="require(`~/assets/images${logo.lightColored}`)"
-                  alt=""
-                />
+                <img :src="require(`~/assets/images${logo.lightColored}`)" alt="" class="logo" />
               </nuxt-link>
             </div>
             <div class="main-header-two__contact-info">
@@ -19,7 +16,7 @@
                     <span class="icon-chat"></span>
                   </div>
                   <div class="main-header-two__contact-text">
-                    <p>Call Anytime</p>
+                    <p>Telefon</p>
                     <a href="tel:92-666-888-0000">92 666 888 0000</a>
                   </div>
                 </li>
@@ -28,10 +25,8 @@
                     <span class="icon-message"></span>
                   </div>
                   <div class="main-header-two__contact-text">
-                    <p>Send Email</p>
-                    <a href="mailto:needhelp@company.com"
-                      >needhelp@company.com</a
-                    >
+                    <p>E-Posta</p>
+                    <a href="mailto:info@nevatekstil.com">info@nevatekstil.com</a>
                   </div>
                 </li>
                 <li>
@@ -39,18 +34,11 @@
                     <span class="icon-address"></span>
                   </div>
                   <div class="main-header-two__contact-text">
-                    <p>Visit Office</p>
-                    <h5>80 broklyn golden street</h5>
+                    <p>Adres</p>
+                    <h5>Kızılpınar Mh. Yıldız Sk.</h5>
                   </div>
                 </li>
               </ul>
-              <div class="main-header-two__btn">
-                <nuxt-link
-                  to="/causes-details"
-                  class="main-header-two__donate-btn"
-                  ><i class="fa fa-heart"></i>Donate
-                </nuxt-link>
-              </div>
             </div>
           </div>
         </div>
@@ -59,92 +47,59 @@
         <nav class="main-menu main-menu__two">
           <div class="container">
             <div class="main-menu__inner clearfix">
-              <a
-                href="#"
-                class="mobile-nav__toggler"
-                @click="mobileDrawerStatusChange"
-              >
+              <a href="#" class="mobile-nav__toggler" @click="mobileDrawerStatusChange">
                 <i class="fa fa-bars"></i>
               </a>
               <ul class="main-menu__list">
-                <li
-                  v-for="item in navMenus"
-                  :key="item.name"
-                  :class="`${undefined !== item.subItems ? 'dropdown ' : ' '}`"
-                >
+                <li v-for="item in navMenus" :key="item.name"
+                  :class="`${undefined !== item.subItems ? 'dropdown ' : ' '}`">
                   <nuxt-link :to="item.url">{{ item.name }}</nuxt-link>
                   <ul class="sub-menu" v-if="undefined !== item.subItems">
                     <li v-for="subitem in item.subItems" :key="subitem.name">
-                      <nuxt-link :to="subitem.url">{{
-                        subitem.name
-                      }}</nuxt-link>
-                      <ul
-                        class="sub-menu"
-                        v-if="undefined !== subitem.subItems"
-                      >
-                        <li
-                          v-for="subitem in subitem.subItems"
-                          :key="subitem.name"
-                        >
-                          <nuxt-link :to="subitem.url">{{
-                            subitem.name
-                          }}</nuxt-link>
+                      <nuxt-link :to="subitem.url">{{ subitem.name }}</nuxt-link>
+                      <ul class="sub-menu" v-if="undefined !== subitem.subItems">
+                        <li v-for="subitem in subitem.subItems" :key="subitem.name">
+                          <nuxt-link :to="subitem.url">{{ subitem.name }}</nuxt-link>
                         </li>
                       </ul>
                     </li>
                   </ul>
                 </li>
               </ul>
-              <div class="main-menu__right">
+              <!-- <div class="main-menu__right">
                 <div class="main-menu__right-social">
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-facebook-square"></i></a>
                   <a href="#"><i class="fab fa-dribbble"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
-                <a
-                  href="#"
-                  class="main-menu__search search-toggler icon-magnifying-glass"
-                  @click="searchPopupStatusChange"
-                ></a>
+                <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"
+                  @click="searchPopupStatusChange"></a>
                 <a href="#" class="main-menu__cart icon-shopping-cart"></a>
-              </div>
+              </div> -->
             </div>
           </div>
         </nav>
       </div>
     </header>
 
-    <div
-      :class="`stricky-header stricked-menu main-menu main-menu__two ${
-        sticky ? 'stricky-fixed' : ''
-      }`"
-    >
+    <div :class="`stricky-header stricked-menu main-menu main-menu__two ${sticky ? 'stricky-fixed' : ''
+      }`">
       <div class="sticky-header__content">
         <div class="container">
           <div class="main-menu__inner clearfix">
-            <a
-              href="#"
-              class="mobile-nav__toggler"
-              @click="mobileDrawerStatusChange"
-            >
+            <a href="#" class="mobile-nav__toggler" @click="mobileDrawerStatusChange">
               <i class="fa fa-bars"></i>
             </a>
             <ul class="main-menu__list">
-              <li
-                v-for="item in navMenus"
-                :key="item.name"
-                :class="`${undefined !== item.subItems ? 'dropdown ' : ' '}`"
-              >
+              <li v-for="item in navMenus" :key="item.name"
+                :class="`${undefined !== item.subItems ? 'dropdown ' : ' '}`">
                 <nuxt-link :to="item.url">{{ item.name }}</nuxt-link>
                 <ul class="sub-menu" v-if="undefined !== item.subItems">
                   <li v-for="subitem in item.subItems" :key="subitem.name">
                     <nuxt-link :to="subitem.url">{{ subitem.name }}</nuxt-link>
                     <ul class="sub-menu" v-if="undefined !== subitem.subItems">
-                      <li
-                        v-for="subitem in subitem.subItems"
-                        :key="subitem.name"
-                      >
+                      <li v-for="subitem in subitem.subItems" :key="subitem.name">
                         <nuxt-link :to="subitem.url">{{
                           subitem.name
                         }}</nuxt-link>
@@ -161,11 +116,8 @@
                 <a href="#"><i class="fab fa-dribbble"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
               </div>
-              <a
-                href="#"
-                class="main-menu__search search-toggler icon-magnifying-glass"
-                @click="searchPopupStatusChange"
-              ></a>
+              <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"
+                @click="searchPopupStatusChange"></a>
               <a href="#" class="main-menu__cart icon-shopping-cart"></a>
             </div>
           </div>
@@ -176,6 +128,11 @@
     <!-- /.stricky-header -->
   </div>
 </template>
+<style>
+.logo {
+  width: 100%;
+}
+</style>
 <script>
 import data from "~/data/data.json";
 import { mapMutations } from "vuex";

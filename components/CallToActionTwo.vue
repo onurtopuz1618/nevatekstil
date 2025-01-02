@@ -9,7 +9,7 @@
         data-imgPosition="50% 0%"
       >
         <img
-          src="~/assets/images/backgrounds/join-one-bg.jpg"
+          src="~/assets/images/resources/boxer.png"
           class="jarallax-img"
         />
       </div>
@@ -18,13 +18,10 @@
       <div class="row">
         <div class="col-xl-12">
           <div class="join-one__inner">
-            <h2 class="join-one__title">
-              Join the community to give <br />
-              education for children
-            </h2>
-            <nuxt-link to="/become-volunteer" class="join-one__btn thm-btn">
+            <h2 class="join-one__title"> Bizimle iletişime geçerek, işbirliği fırsatlarını keşfedin ve hemen teklif alın. </h2>
+            <nuxt-link to="/contact" class="join-one__btn thm-btn">
               <i class="fas fa-arrow-circle-right"></i>
-              Learn More
+              İletişim
             </nuxt-link>
           </div>
         </div>
