@@ -3,7 +3,7 @@
     <header class="main-header clearfix">
       <div class="main-header__logo">
         <nuxt-link to="/">
-          <img :src="require(`~/assets/images${logo.light}`)" alt="" />
+          <img :src="require(`~/assets/images${logo.light}`)" alt="" class="logo" />
         </nuxt-link>
       </div>
       <div class="main-menu-wrapper">
@@ -163,6 +163,11 @@
     <!-- /.stricky-header -->
   </div>
 </template>
+<style>
+.logo {
+  width: 100%;
+}
+</style>
 <script>
 import data from "~/data/data.json";
 import { mapMutations } from "vuex";
