@@ -1,7 +1,8 @@
 {
   "logo": {
     "dark": "/neva/400PngdpiLogoBW.png",
-    "light": "/neva/400PngdpiLogoCroppedBW.png",
+    "light": "/neva/400PngdpiLogoBW.png",
+    "footer": "/neva/400PngdpiLogoCropped.png",
     "lightColored": "/neva/SVGLogo.svg"
   },
   "navMenus": [
@@ -14,71 +15,29 @@
       "url": "/about"
     },
     {
-      "name": "Pages",
-      "url": "/about",
+      "name": "Hizmetlerimiz",
+      "url": "/services"
+    },
+    {
+      "name": "Teklif Al",
+      "url": "/offer"
+    },
+    {
+      "name": "Kurumsal",
+      "url": "/corporate",
       "subItems": [
         {
-          "name": "About",
-          "url": "/about"
+          "name": "Misyonumuz",
+          "url": "/our-mission"
         },
         {
-          "name": "Volunteers",
-          "url": "/volunteers"
-        },
-        {
-          "name": "Gallery",
-          "url": "/gallery"
-        },
-        {
-          "name": "Become a Volunteer",
-          "url": "/become-volunteer"
+          "name": "Vizyonumuz",
+          "url": "/our-vision"
         }
       ]
     },
     {
-      "name": "Donations",
-      "url": "/causes",
-      "subItems": [
-        {
-          "name": "Causes",
-          "url": "/causes"
-        },
-        {
-          "name": "Causes Details",
-          "url": "/causes-details"
-        }
-      ]
-    },
-    {
-      "name": "Events",
-      "url": "/events",
-      "subItems": [
-        {
-          "name": "Events",
-          "url": "/events"
-        },
-        {
-          "name": "Events Details",
-          "url": "/events-details"
-        }
-      ]
-    },
-    {
-      "name": "News",
-      "url": "/news",
-      "subItems": [
-        {
-          "name": "News",
-          "url": "/news"
-        },
-        {
-          "name": "News Details",
-          "url": "/news-details"
-        }
-      ]
-    },
-    {
-      "name": "Contact",
+      "name": "İletişim",
       "url": "/contact"
     }
   ],
@@ -130,18 +89,18 @@
   ],
   "sliderThree": [
     {
-      "image": "/backgrounds/main-slider-3-1.jpg",
-      "subtitle": "Helping Them Today",
-      "title": "Help the Poor <br> in Need",
-      "buttonLabel": "Learn More",
+      "image": "/backgrounds/slider-1.png",
+      "subtitle": "Neva Teksil",
+      "title": "Konfor ve kalite <br> Neva'da buluşur.",
+      "buttonLabel": "Daha Fazla",
       "buttonUrl": "/about"
     },
     {
-      "image": "/backgrounds/main-slider-3-2.png",
-      "subtitle": "Helping Them Today",
-      "title": "Help the Poor <br> in Need",
-      "buttonLabel": "Learn More",
-      "buttonUrl": "/about"
+      "image": "/backgrounds/slider-2.png",
+      "subtitle": "Neva Teksil",
+      "title": "Stilinizi detaylarla <br> zirveye taşıyalım.",
+      "buttonLabel": "Teklif Al",
+      "buttonUrl": "/offer"
     }
   ],
   "sliderOneCounter": [

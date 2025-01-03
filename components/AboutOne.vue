@@ -66,9 +66,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.thm-btn {
-  /* Buton stilini buraya ekleyebilirsiniz */
-}
-</style>

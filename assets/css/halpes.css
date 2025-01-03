@@ -1934,11 +1934,11 @@ h6 {
 .main-slider-three-shape {
   position: absolute;
   top: -50px;
-  right: 194px;
-  -webkit-animation: service_hexagon_2 15s infinite linear;
-  -moz-animation: service_hexagon_2 15s infinite linear;
-  -o-animation: service_hexagon_2 15s infinite linear;
-  animation: service_hexagon_2 15s infinite linear;
+  right: 420px;
+  -webkit-animation: service_hexagon_2 10s infinite linear;
+  -moz-animation: service_hexagon_2 10s infinite linear;
+  -o-animation: service_hexagon_2 10s infinite linear;
+  animation: service_hexagon_2 10s infinite linear;
 }
 
 .main-slider-three .thm-btn:hover {
@@ -2005,8 +2005,8 @@ h6 {
 
 .welcome-one__heart-icon {
   position: absolute;
-  bottom: -88px;
-  right: 30px;
+  bottom: -70px;
+  right: 70px;
 }
 
 .welcome-one__right .section-title {
@@ -3433,10 +3433,15 @@ h6 {
 /*--------------------------------------------------------------
 # Site Footer
 --------------------------------------------------------------*/
+
+.site-footer__top .col-xl-4 {
+  padding-top: 15px;
+}
+
 .site-footer {
   position: relative;
   display: block;
-  padding: 92px 0 0;
+  padding: 10px 0px 40px 0px;
 }
 
 .site-footer-bg {
@@ -3467,10 +3472,11 @@ h6 {
 }
 
 .footer-widget__title {
-  font-size: 22px;
-  color: #ffffff;
+  font-size: 20px;
+  color: #15c8a0;
   line-height: 32px;
   font-weight: 900;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -3583,6 +3589,11 @@ h6 {
   line-height: 20px;
 }
 
+.footer-widget__logo {
+  margin-top:2.5rem;
+  padding: 10px;
+}
+
 .footer-widget__contact-list li .text p span {
   font-size: 14px;
   color: #afb2c0;
@@ -3592,7 +3603,7 @@ h6 {
 
 .footer-widget__contact-list li .text p a {
   font-size: 16px;
-  color: #ffffff;
+  color: #15c8a0;
   font-weight: 800;
   transition: all 500ms ease;
 }

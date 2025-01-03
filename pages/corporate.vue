@@ -1,13 +1,11 @@
 <template>
   <div>
     <HeaderTwo />
-    <PageHeader pageTitle="Hakkımızda" pageName="Hakkımızda" />
-    <AboutOne />
+    <PageHeader pageTitle="Kurumsal" pageName="Kurumsal" />
+    <CorporateContent />
     <TestimonialsCarouselOne className="about-page-testimonial" />
     <CallToActionTwo className="join-one__about" />
-    <!-- <FunfactOne /> -->
     <!-- <VolunteerAbout /> -->
-    <SponsorsOne />
     <Footer />
     <SearchPopup />
     <MobileDrawer />

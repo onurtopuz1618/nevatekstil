@@ -17,7 +17,7 @@
                   </div>
                   <div class="main-header-two__contact-text">
                     <p>Telefon</p>
-                    <a href="tel:92-666-888-0000">92 666 888 0000</a>
+                    <a href="tel:05437234851">+90 543 723 48 51</a>
                   </div>
                 </li>
                 <li>

@@ -1,5 +1,6 @@
 import { resolve } from "path";
 export default {
+  serverMiddleware: ["~/server/index.js"],
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "Halpes || Vue Nuxt Template For Donation Services",
@@ -58,7 +59,6 @@ export default {
       height: "4px",
     },
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     "~/assets/vendors/animate/animate.min.css",
@@ -93,7 +93,17 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  axios: {
+    baseURL: 'http://localhost:3000',
+    credentials: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Content-Type': 'application/json',
+    },
+  },
   alias: {
     components: resolve(__dirname, "./components"),
     images: resolve(__dirname, "./assets/images"),

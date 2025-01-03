@@ -15,13 +15,13 @@
             <div class="col-lg-8">
               <div class="main-slider__content">
                 <p v-html="item.subtitle" />
-                <h2 v-html="item.title" />
+                <h2 v-html="item.title" style="font-size:60px; line-height:1.25;" />
                 <nuxt-link :to="item.buttonUrl" class="thm-btn">
                   <i class="fas fa-arrow-circle-right"></i>
                   {{ item.buttonLabel }}
                 </nuxt-link>
                 <div class="main-slider-three-shape">
-                  <img src="~images/shapes/main-slider-3-shape-1.png" alt="" />
+                  <img src="~images/resources/neva.png" alt="" />
                 </div>
               </div>
             </div>

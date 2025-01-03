@@ -1,0 +1,55 @@
+<template>
+  <div>
+    <HeaderTwo />
+    <PageHeader pageTitle="Misyonumuz" pageName="Misyonumuz" />
+    <section class="event-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <div class="event-details__bottom-content">
+              <h3 class="event-details__bottom-title">Misyonumuz</h3>
+              <p class="event-details__bottom-text-1">
+                Neva Tekstil olarak misyonumuz, tekstil sektöründe kaliteli ve
+                yenilikçi ürünler sunarak, müşteri beklentilerini en üst
+                seviyede karşılamaktır. <b>Toptan boxer</b> üretiminde güvenilir
+                ve tercih edilen bir marka olmayı sürdürüyoruz. Üretim
+                süreçlerimizde kalite kontrolü ön planda tutarak,
+                müşterilerimizin ihtiyaçlarına tam anlamıyla cevap verecek
+                çözümler üretiyoruz. Bununla birlikte, iş birliği yaptığımız
+                firmalarla güçlü bir bağ kurarak, uzun vadeli ilişkiler
+                geliştirmeyi hedefliyoruz.
+              </p>
+              <p class="event-details__bottom-text-2">
+                Sürdürülebilir üretim anlayışımız doğrultusunda, çevre dostu
+                politikalar izliyor ve doğal kaynakların korunmasına katkıda
+                bulunuyoruz. Ayrıca, topluma değer katmak adına sosyal
+                sorumluluk projelerinde aktif rol alıyoruz. Misyonumuz, yalnızca
+                ürün üretmek değil, aynı zamanda müşterilerimizin güvenini
+                kazanmak ve sektörde örnek bir firma olmaktır.
+                <b>Neva Tekstil</b> ailesi olarak, değerlerimizden ödün
+                vermeden, her zaman daha iyisini sunmak için çalışıyoruz.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-12 col-lg-12">
+            <div class="event-details__right">
+              <div class="event-details__right-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+                  class="event-details__map-box"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <TestimonialsCarouselOne className="about-page-testimonial" />
+    <CallToActionTwo className="join-one__about" />
+    <!-- <VolunteerAbout /> -->
+    <Footer />
+    <SearchPopup />
+    <MobileDrawer />
+  </div>
+</template>s
